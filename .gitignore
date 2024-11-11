@@ -1,0 +1,5 @@
+# Ignore the Conda Virtual Enviroment
+.venv
+
+# Ignore the Visual Code Studio Configuration Folder
+.vscode
