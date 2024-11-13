@@ -1,5 +1,8 @@
-# Ignore the Conda Virtual Enviroment
+# Ignore the Conda virtual enviroment
 .conda
 
-# Ignore the Visual Code Studio Configuration Folder
+# Ignore the Visual Code Studio configuration directory
 .vscode
+
+# Ignore the dataset directory
+dataset/
