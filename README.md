@@ -2,7 +2,7 @@
 
 ## Model
 
-![](architecture.svg)
+![](images/architecture.svg)
 
 
 ## Description
