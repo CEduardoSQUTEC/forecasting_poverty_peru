@@ -6,3 +6,6 @@
 
 # Ignore the dataset directory
 dataset/
+
+# Ignore training records directory 
+notebooks/records
