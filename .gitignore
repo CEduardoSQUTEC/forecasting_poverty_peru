@@ -9,3 +9,6 @@ dataset/
 
 # Ignore training records directory 
 notebooks/records
+
+# Ignore runs records directory 
+notebooks/runs
