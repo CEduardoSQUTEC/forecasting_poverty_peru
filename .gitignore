@@ -1,14 +1,11 @@
-# Ignore the Conda virtual enviroment
-.conda
+# Ignore hidden files and directories 
+.*
 
-# Ignore the Visual Code Studio configuration directory
-.vscode
+# Not ignore .gitignore
+.gitignore
 
 # Ignore the dataset directory
 dataset/
 
-# Ignore training records directory 
-notebooks/records
-
-# Ignore runs records directory 
-notebooks/runs
+# Ignore Lighning Logs directory 
+notebooks/lightning_logs
