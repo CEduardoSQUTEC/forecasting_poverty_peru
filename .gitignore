@@ -1,11 +1,11 @@
 # Ignore hidden files and directories 
 .*
 
-# Not ignore .gitignore
+# Track .gitignore
 .gitignore
 
 # Ignore the dataset directory
 dataset/
 
 # Ignore Lighning Logs directory 
-notebooks/lightning_logs
+lightning_logs
