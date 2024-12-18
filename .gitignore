@@ -7,5 +7,5 @@
 # Ignore the dataset directory
 dataset/
 
-# Ignore Lighning Logs directory 
+# Ignore the Lighning Logs directory 
 lightning_logs
