@@ -1,5 +1,5 @@
 import lightning as L
-from lightning.pytorch.tuner import Tuner
+from lightning.pytorch.tuner.tuning import Tuner
 
 import torch
 from torch import nn
@@ -24,11 +24,13 @@ transform = v2.Compose([
 
 data = {
     split: datasets.CIFAR10(
-        root='../dataset/',
+        root='dataset/',
         download=True,
         transform=transform,
+        train=split == 'train'
     ) for split in ['train', 'val']
 }
+
 
 class DenseNet121CIFAR10(L.LightningModule):
     def __init__(self, batch_size=1):
@@ -62,10 +64,10 @@ class DenseNet121CIFAR10(L.LightningModule):
         loss = F.cross_entropy(y_hat, y)
         self.log('val_loss', loss, on_epoch=True, sync_dist=True)
 
+
 model = DenseNet121CIFAR10()
 
 trainer = L.Trainer(
-    strategy='ddp',
     strategy='auto',
     devices='auto',
     accelerator='auto',
