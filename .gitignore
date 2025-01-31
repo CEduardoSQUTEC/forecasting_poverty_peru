@@ -4,8 +4,11 @@
 # Track .gitignore
 .gitignore
 
+# Ignore checkpoints directory
+checkpoints
+
 # Ignore the dataset directory
-dataset/
+datasets/
 
 # Ignore the Lighning Logs directory 
 lightning_logs
