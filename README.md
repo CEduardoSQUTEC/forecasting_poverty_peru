@@ -1,4 +1,4 @@
-# Poverty Forecasting in Peru
+# Forecasting Poverty in Peru
 
 ## Introduction
 

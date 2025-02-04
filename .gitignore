@@ -2,13 +2,16 @@
 .*
 
 # Track .gitignore
-.gitignore
+!.gitignore
+
+# Ignore logs files
+*.log
 
 # Ignore checkpoints directory
-checkpoints
+checkpoints/
 
 # Ignore the dataset directory
 datasets/
 
 # Ignore the Lighning Logs directory 
-lightning_logs
+lightning_logs/
