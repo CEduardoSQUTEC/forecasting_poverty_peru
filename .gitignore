@@ -4,8 +4,12 @@
 # Track .gitignore
 !.gitignore
 
+
 # Ignore logs files
 *.log
+
+# Ignore compilation files
+__pycache__/
 
 # Ignore checkpoints directory
 checkpoints/

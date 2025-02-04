@@ -1,9 +1,0 @@
-name: 
-  /home/ceduardosq/Code/2-Projects/1-ForecastingPoverty/poverty_forecasting_peru/.conda
-channels:
-  - https://repo.anaconda.com/pkgs/main
-  - https://repo.anaconda.com/pkgs/r
-dependencies:
-  - python=3.10
-prefix: 
-  /home/ceduardosq/Code/2-Projects/1-ForecastingPoverty/poverty_forecasting_peru/.conda
