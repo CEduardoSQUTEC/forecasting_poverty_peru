@@ -1,21 +1,13 @@
-# Ignore hidden files and directories 
-.*
-
-# Track .gitignore
-!.gitignore
-
-
-# Ignore logs files
+# Ignore log files
 *.log
 
-# Ignore compilation files
+# Ignore compilation artifacts
 __pycache__/
 
-# Ignore checkpoints directory
-checkpoints/
+# Ignore project directories that contain generated or large files
+data/
+models/
 
-# Ignore the dataset directory
-datasets/
-
-# Ignore the Lighning Logs directory 
-lightning_logs/
+# Ignore hidden files and directories (but keep .gitignore tracked)
+.*
+!.gitignore

@@ -9,7 +9,7 @@ from functools import partial
 import torch
 import torch.nn as nn
 from timm.models.vision_transformer import VisionTransformer
-from modeling.satmae_pp.pos_embed import get_2d_sincos_pos_embed
+from src.models.satmae_pp.pos_embed import get_2d_sincos_pos_embed
 
 
 class VisionTransformer(VisionTransformer):
