@@ -1,13 +1,17 @@
-# Ignore log files
-*.log
-
-# Ignore compilation artifacts
+# Compilation
 __pycache__/
 
-# Ignore project directories that contain generated or large files
+# Data
 data/
+
+# Environment Variables
+.env
+
+# Models
 models/
 
-# Ignore hidden files and directories (but keep .gitignore tracked)
-.*
-!.gitignore
+# Logs
+*.log
+
+# Virtual Environment
+.conda
