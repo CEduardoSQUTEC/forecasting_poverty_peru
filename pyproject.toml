@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forecasting_poverty_peru"
+version = "0.1.0"
+authors = [
+    { name = "Eduardo Castro", email = "eduardo.castro@utec.edu.pe" }
+]
+
+[tool.setuptools]
+packages = ["forecasting_poverty_peru"]
