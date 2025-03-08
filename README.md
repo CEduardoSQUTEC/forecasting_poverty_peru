@@ -1,6 +1,6 @@
 <div align="center">
 
-# Forecasting Poverty in Peru
+# Predict Poverty in Peru from Satellite Imagery
 
 <!--
 [![Paper](https://img.shields.io/badge/paper-arxiv.1001.2234-B31B1B.svg)](https://www.nature.com/articles/nature14539)
@@ -16,6 +16,7 @@
 
 Satellite Images possess immense power to address many societal problems. Recently in Peru, many clandestine airstrips for drugs were found disrupting the forestland of the country [<a href='#1'>1</a>]. Additionally, thanks to satellite imagery, archaeologists were able to find over 430 unexplored Nazca geoglyphs [<a href='#2'>2</a>]. Therefore, there is an opportunity to develop Machine Learning models for the automatic classification or prediction of societal issues. In this regard, one pressing issue in Peru is poverty. Recent literature suggest that satellite imagery can predict the asset index of several households [<a href='#3'>3</a>].
 
+<!--
 # To-Do
 
 1. Description: Project's Purpose
@@ -34,6 +35,8 @@ Satellite Images possess immense power to address many societal problems. Recent
     - Model Performance
 
 6. License: Usage Terms.
+
+-->
 
 # Citation
 
